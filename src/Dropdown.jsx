@@ -20,7 +20,7 @@ const Dropdown = ({ items }) => {
         onMouseEnter={() => setIsOpen(true)}
         className="bg-blue-500 text-white px-4 py-2 rounded-md focus:outline-none"
       >
-        {selectedItem ? selectedItem : "Select an option"}
+        {selectedItem ? selectedItem : "Select a language"}
       </button>
       {isOpen && (
         <ul className="absolute bg-white border border-gray-300 rounded-md mt-2 shadow-md w-48 z-10">
